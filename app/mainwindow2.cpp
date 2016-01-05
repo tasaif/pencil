@@ -543,6 +543,7 @@ void MainWindow2::saveDocument()
 
 bool MainWindow2::maybeSave()
 {
+  qDebug("Here");
     if ( mEditor->object()->isModified() )
     {
         int ret = QMessageBox::warning( this, tr( "Warning" ),
