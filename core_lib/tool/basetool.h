@@ -77,6 +77,7 @@ public:
     virtual void setPressure( const bool pressure );
     virtual void setPreserveAlpha( const bool preserveAlpha );
     virtual void leavingThisTool(){}
+    virtual void enteringThisTool(){}
     virtual void switchingLayers(){}
     Properties properties;
 
